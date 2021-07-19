@@ -1,0 +1,135 @@
+/*NEED TO WORK ON IMAGE SLIDER AND FIX FOOTER*/
+
+
+
+*{
+    box-sizing:border-box ;
+    
+}
+
+body {
+   height: 100%;    
+    padding:0px;
+    margin:auto;
+    background-color: #0089c9;
+background-image: url("https://transparenttextures.com/patterns/knitted-sweater.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-repeat: no-repeat;    
+font-family: 'Changa', sans-serif;
+
+}
+
+header{
+ background-image:url("https://i.ytimg.com/vi/IGbvF1yBsv8/maxresdefault.jpg");
+   max-width:100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:scroll;
+    text-align:center;
+  text-shadow:4px 4px 4px #aaa;
+    display:flex;
+    min-height:200px;
+    line-height:25px;
+     box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color:white;
+  padding-bottom:120px;
+  
+}
+
+
+
+.container {
+  width:100%;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+.Sec1{
+  color:white;
+ text-align:center;
+ max-height:600px;
+ margin-top:20px;
+ margin-bottom:20px;
+ padding:15px;
+}
+
+li{
+    float:left;
+}
+
+.lyricist{
+    height:38px;
+    width:200px;
+  margin-right:5px;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+  position:relative;
+  border-radius:4px;
+}
+
+
+
+hr{
+border:lightblue solid 3px;
+}
+ 
+
+
+li{
+   list-style-type:circle ;
+   
+}
+
+#spacing{
+    line-height:2.9;
+    font-size:18px;
+}
+
+input{
+     width:210px;
+    padding:10px 20px;
+    margin:8px 0;
+    border: none;
+    border-bottom:5px solid #006000;
+    border-radius:4px;
+    color:#fff;
+    background-color:lightblue;
+}
+
+form{
+margin-top:0;
+text-align:center;
+ padding: 9px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+ #slider{
+     overflow:hidden;
+ }
+ 
+  figure{
+     position:relative;
+     width:100%;
+     margin:0;
+     left:0;
+     animation: 20s slider infinite;
+ }
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#fff;
+    text-align:center;
+    flex-direction:row;
+    max-height:400px;
+}
+
